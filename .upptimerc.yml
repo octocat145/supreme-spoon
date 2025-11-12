@@ -50,7 +50,7 @@ status-website:
   logoUrl: https://raw.githubusercontent.com/octocat145/supreme-spoon/refs/heads/master/CPLP_logo.svg
   name: chan Uptime
   introTitle: "**chan Uptime** é um [Monitor de Tempo de Atividade](https://minacriativa.com.br/glossario/o-que-e-uptime-tempo-de-atividade/) para [chans/*boards](https://internetsparaleigos.wordpress.com/2010/05/06/2ch-e-futaba/) [lusófonos](https://pt.wikipedia.org/wiki/Lusofonia)."
-  introMessage: Status operacional e saúde dos [chans/*boards](https://internetsparaleigos.wordpress.com/2010/05/06/2ch-e-futaba/) [lusófonos](https://pt.wikipedia.org/wiki/Lusofonia) em tempo real.
+  introMessage: "Status operacional e saúde dos [chans/*boards](https://internetsparaleigos.wordpress.com/2010/05/06/2ch-e-futaba/) [lusófonos](https://pt.wikipedia.org/wiki/Lusofonia) em tempo real."
   navbar:
     - title: Status
       href: /
@@ -88,17 +88,6 @@ i18n:
   degraded: Degradado
   footer: Este site é de [Código Aberto](https://github.com/octocat145/supreme-spoon/) com a tecnologia de [Upptime](https://upptime.js.org)
   rateLimitExceededTitle: Limite de requisições excedido
-  rateLimitExceededIntro: Você excedeu o número de requisições que pode fazer em uma hora, então terá que aguardar antes de acessar este site novamente. Alternativamente, você pode adicionar um [Token de Acesso Pessoal do GitHub](https://docs.github.com/pt/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) para continuar a usar este site.
-  rateLimitExceededWhatDoesErrorMean: O que este erro significa?
-  rateLimitExceededErrorMeaning: Este site usa a API do GitHub para acessar dados em tempo real sobre o status de nossos sites. Por padrão, o GitHub permite que cada endereço [IP](https://pt.wikipedia.org/wiki/Endere%C3%A7o_IP) faça 60 requisições por hora, as quais você consumiu.
-  rateLimitExceededErrorHowCanFix: Como posso resolver isso?
-  rateLimitExceededErrorFix: Você pode aguardar mais uma hora e o limite do seu endereço [IP](https://pt.wikipedia.org/wiki/Endere%C3%A7o_IP) será restaurado. Alternativamente, você pode adicionar seu [Token de Acesso Pessoal do GitHub](https://docs.github.com/pt/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens), o que lhe dá 5.000 requisições adicionais por hora.
-  rateLimitExceededGeneratePAT: Aprenda a gerar um [Token de Acesso Pessoal](https://docs.github.com/pt/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
-  rateLimitExceededHasSet: Você definiu um token de acesso pessoal.
-  rateLimitExceededRemoveToken: Remover token
-  rateLimitExceededGitHubPAT: [Token de Acesso Pessoal do GitHub](https://docs.github.com/pt/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
-  rateLimitExceededCopyPastePAT: Copie e cole seu token.
-  rateLimitExceededSaveToken: Salvar token
   errorTitle: Erro
   errorIntro: Ocorreu um erro ao tentar obter os detalhes de status mais recentes.
   errorText: Você pode tentar novamente em alguns instantes.
