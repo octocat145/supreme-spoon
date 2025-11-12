@@ -1,36 +1,123 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: octocat145 # Your GitHub organization or username, where this repository lives
+repo: supreme-spoon # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+  - name: 14chan
+    url: https://14chan.org/
+    type: globalping
+  - name: 1500chan
+    url: https://1500chan.org/
+    type: globalping
+  - name: 27chan
+    url: https://27chan.org/
+    type: globalping
+  - name: Anões
+    url: https://anoes.net/
+    type: globalping
+  - name: Azumangachan
+    url: https://azumangachan.rf.gd/
+    type: globalping
+  - name: Goiaba
+    url: https://goiaba.fi/
+    type: globalping
+  - name: Magalichan
+    url: https://magalichan.com/
+    type: globalping
+  - name: mokoichannel
+    url: https://mokoich.net/
+    type: globalping
+  - name: ptちゃん
+    url: https://ptchan.org/
+    type: globalping
+  - name: Qchan
+    url: https://qchan.org/
+    type: globalping
+  - name: Reinchan
+    url: https://reinchan.org/
+    type: globalping
+  - name: tchan
+    url: https://tchan.lol/
+    type: globalping
+
+skipDeleteIssues: true
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: chanuptime.qzz.io
   # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  logoUrl: https://raw.githubusercontent.com/octocat145/supreme-spoon/refs/heads/master/CPLP_logo.svg
+  name: *chan Uptime
+  introTitle: "**\*chan Uptime** é um [Monitor de Tempo de Atividade](https://minacriativa.com.br/glossario/o-que-e-uptime-tempo-de-atividade/) para [chans/*boards](https://internetsparaleigos.wordpress.com/2010/05/06/2ch-e-futaba/) [lusófonos](https://pt.wikipedia.org/wiki/Lusofonia)."
+  introMessage: Status operacional e saúde dos [chans/*boards](https://internetsparaleigos.wordpress.com/2010/05/06/2ch-e-futaba/) [lusófonos](https://pt.wikipedia.org/wiki/Lusofonia) em tempo real.
   navbar:
     - title: Status
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+  theme: night
+  faviconSvg: https://raw.githubusercontent.com/octocat145/supreme-spoon/refs/heads/master/CPLP_logo.svg
+
+i18n:
+  activeIncidents: Incidentes Ativos
+  allSystemsOperational: Todos os sistemas estão operacionais
+  incidentReport: "Relatório do incidente #$NUMBER →"
+  activeIncidentSummary: Iniciado em $DATE com $POSTS publicações
+  incidentTitle: Detalhes do Incidente $NUMBER
+  incidentFixed: Resolvido
+  incidentOngoing: Em andamento
+  incidentOpenedAt: Iniciado em
+  incidentClosedAt: Encerrado em
+  incidentViewOnGitHub: Visualizar e Inscrever-se no GitHub
+  incidentCommentSummary: Publicado em $DATE por $AUTHOR
+  incidentBack: ← Retornar à lista completa de Incidentes
+  pastIncidents: Incidentes Anteriores
+  pastIncidentsResolved: Resolvido em $MINUTES minutos com $POSTS publicações
+  liveStatus: Status Atual
+  overallUptime: "Tempo de atividade geral: $UPTIME"
+  overallUptimeTitle: Tempo de atividade geral
+  averageResponseTime: "Tempo médio de resposta: $TIMEms"
+  averageResponseTimeTitle: Tempo médio de resposta
+  sevelDayResponseTime: Tempo de resposta de 7 dias
+  responseTimeMs: Tempo de resposta (ms)
+  ms: milissegundos
+  loading: Carregando
+  up: No ar
+  down: Fora do ar
+  degraded: Degradado
+  footer: Este site é de [Código Aberto](https://github.com/octocat145/supreme-spoon/) com a tecnologia de [Upptime](https://upptime.js.org)
+  rateLimitExceededTitle: Limite de requisições excedido
+  rateLimitExceededIntro: Você excedeu o número de requisições que pode fazer em uma hora, então terá que aguardar antes de acessar este site novamente. Alternativamente, você pode adicionar um [Token de Acesso Pessoal do GitHub](https://docs.github.com/pt/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) para continuar a usar este site.
+  rateLimitExceededWhatDoesErrorMean: O que este erro significa?
+  rateLimitExceededErrorMeaning: Este site usa a API do GitHub para acessar dados em tempo real sobre o status de nossos sites. Por padrão, o GitHub permite que cada endereço [IP](https://pt.wikipedia.org/wiki/Endere%C3%A7o_IP) faça 60 requisições por hora, as quais você consumiu.
+  rateLimitExceededErrorHowCanFix: Como posso resolver isso?
+  rateLimitExceededErrorFix: Você pode aguardar mais uma hora e o limite do seu endereço [IP](https://pt.wikipedia.org/wiki/Endere%C3%A7o_IP) será restaurado. Alternativamente, você pode adicionar seu [Token de Acesso Pessoal do GitHub](https://docs.github.com/pt/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens), o que lhe dá 5.000 requisições adicionais por hora.
+  rateLimitExceededGeneratePAT: Aprenda a gerar um [Token de Acesso Pessoal](https://docs.github.com/pt/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
+  rateLimitExceededHasSet: Você definiu um token de acesso pessoal.
+  rateLimitExceededRemoveToken: Remover token
+  rateLimitExceededGitHubPAT: [Token de Acesso Pessoal do GitHub](https://docs.github.com/pt/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
+  rateLimitExceededCopyPastePAT: Copie e cole seu token.
+  rateLimitExceededSaveToken: Salvar token
+  errorTitle: Erro
+  errorIntro: Ocorreu um erro ao tentar obter os detalhes de status mais recentes.
+  errorText: Você pode tentar novamente em alguns instantes.
+  errorHome: Ir para a página inicial
+  pastScheduledMaintenance: Manutenções Passadas
+  scheduledMaintenance: Manutenção Agendada
+  scheduledMaintenanceSummaryStarted: Iniciada em $DATE por $DURATION minutos
+  scheduledMaintenanceSummaryStarts: Inicia em $DATE por $DURATION minutos
+  startedAt: Iniciada em
+  startsAt: Inicia em
+  duration: Duração
+  durationMin: $DURATION minutos
+  incidentCompleted: Concluído
+  incidentScheduled: Agendado
+  duration24H: 24h
+  duration7D: 7 dias
+  duration30D: 30 dias
+  duration1Y: 1 ano
+  durationAll: Tudo
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
