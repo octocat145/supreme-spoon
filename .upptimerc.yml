@@ -48,8 +48,8 @@ status-website:
   cname: chanuptime.qzz.io
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/octocat145/supreme-spoon/refs/heads/master/CPLP_logo.svg
-  name: *chan Uptime
-  introTitle: "***chan Uptime** é um [Monitor de Tempo de Atividade](https://minacriativa.com.br/glossario/o-que-e-uptime-tempo-de-atividade/) para [chans/*boards](https://internetsparaleigos.wordpress.com/2010/05/06/2ch-e-futaba/) [lusófonos](https://pt.wikipedia.org/wiki/Lusofonia)."
+  name: chan Uptime
+  introTitle: "**chan Uptime** é um [Monitor de Tempo de Atividade](https://minacriativa.com.br/glossario/o-que-e-uptime-tempo-de-atividade/) para [chans/*boards](https://internetsparaleigos.wordpress.com/2010/05/06/2ch-e-futaba/) [lusófonos](https://pt.wikipedia.org/wiki/Lusofonia)."
   introMessage: Status operacional e saúde dos [chans/*boards](https://internetsparaleigos.wordpress.com/2010/05/06/2ch-e-futaba/) [lusófonos](https://pt.wikipedia.org/wiki/Lusofonia) em tempo real.
   navbar:
     - title: Status
