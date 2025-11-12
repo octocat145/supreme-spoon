@@ -6,15 +6,35 @@ sites:
   - name: 14chan
     url: https://14chan.org/
     type: globalping
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 403
+      - 404
   - name: 1500chan
     url: https://1500chan.org/
     type: globalping
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 403
+      - 404
   - name: 27chan
     url: https://27chan.org/
     type: globalping
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 403
+      - 404
   - name: Anões
     url: https://anoes.net/
     type: globalping
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 403
+      - 404
   - name: Azumangachan
     url: https://azumangachan.rf.gd/
     type: globalping
@@ -24,6 +44,11 @@ sites:
   - name: Magalichan
     url: https://magalichan.com/
     type: globalping
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 403
+      - 404
   - name: mokoichannel
     url: https://mokoich.net/
     type: globalping
@@ -36,9 +61,19 @@ sites:
   - name: Reinchan
     url: https://reinchan.org/
     type: globalping
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 403
+      - 404
   - name: tchan
     url: https://tchan.lol/
     type: globalping
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 403
+      - 404
 
 skipDeleteIssues: true
 
