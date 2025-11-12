@@ -92,7 +92,7 @@ status-website:
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
   theme: night
-  faviconSvg: https://raw.githubusercontent.com/octocat145/supreme-spoon/refs/heads/master/CPLP_logo.svg
+  favicon: https://raw.githubusercontent.com/octocat145/supreme-spoon/refs/heads/master/antennabars.png
 
 i18n:
   activeIncidents: Incidentes Ativos
