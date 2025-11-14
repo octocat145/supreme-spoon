@@ -30,17 +30,20 @@ sites:
   - name: Anões
     url: https://anoes.net/
     type: globalping
-    expectedStatusCodes:
-      - 200
-      - 201
-      - 403
-      - 404
   - name: Azumangachan
     url: https://azumangachan.rf.gd/
     type: globalping
   - name: Goiaba
     url: https://goiaba.fi/
     type: globalping
+  - name: Lusochan
+    url: https://lusochan.net/
+    type: globalping
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 403
+      - 404
   - name: Magalichan
     url: https://magalichan.com/
     type: globalping
