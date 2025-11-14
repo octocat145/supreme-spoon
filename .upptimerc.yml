@@ -37,6 +37,9 @@ sites:
   - name: Goiaba
     url: https://goiaba.fi/
     type: globalping
+  - name: gavetachan
+    url: https://gavetachan.org/
+    type: globalping
   - name: Lusochan
     url: https://lusochan.net/
     type: globalping
