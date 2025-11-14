@@ -30,7 +30,8 @@ sites:
   - name: Anões
     url: https://anoes.net/
     type: globalping
-    location: Brazil
+    expectedStatusCodes:
+      - 400
   - name: Azumangachan
     url: https://azumangachan.rf.gd/
     type: globalping
