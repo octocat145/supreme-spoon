@@ -30,6 +30,7 @@ sites:
   - name: Anões
     url: https://anoes.net/
     type: globalping
+    location: Brazil
   - name: Azumangachan
     url: https://azumangachan.rf.gd/
     type: globalping
@@ -39,6 +40,7 @@ sites:
   - name: Lusochan
     url: https://lusochan.net/
     type: globalping
+    location: Portugal
     expectedStatusCodes:
       - 200
       - 201
@@ -119,7 +121,7 @@ i18n:
   averageResponseTimeTitle: Tempo médio de resposta
   sevelDayResponseTime: Tempo de resposta de 7 dias
   responseTimeMs: Tempo de resposta (ms)
-  ms: milissegundos
+  ms: ms
   loading: Carregando
   up: No ar
   down: Fora do ar
