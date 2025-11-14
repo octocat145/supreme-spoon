@@ -41,11 +41,6 @@ sites:
     url: https://lusochan.net/
     type: globalping
     location: Portugal
-    expectedStatusCodes:
-      - 200
-      - 201
-      - 403
-      - 404
   - name: Magalichan
     url: https://magalichan.com/
     type: globalping
