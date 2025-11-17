@@ -62,6 +62,11 @@ sites:
   - name: Qchan
     url: https://qchan.org/
     type: globalping
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 403
+      - 404
   - name: Reinchan
     url: https://reinchan.org/
     type: globalping
