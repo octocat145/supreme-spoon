@@ -35,6 +35,9 @@ sites:
   - name: Azumangachan
     url: https://azumangachan.rf.gd/
     type: globalping
+  - name: FAVELACHAN
+    url: https://favelachan.org/
+    type: globalping
   - name: Goiaba
     url: https://goiaba.fi/
     type: globalping
