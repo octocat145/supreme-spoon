@@ -56,7 +56,7 @@ sites:
       - 201
       - 403
       - 404
-    - name: minechan
+  - name: minechan
     url: https://minechan.org/
     type: globalping
     expectedStatusCodes:
