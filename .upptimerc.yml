@@ -56,6 +56,14 @@ sites:
       - 201
       - 403
       - 404
+    - name: minechan
+    url: https://minechan.org/
+    type: globalping
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 403
+      - 404
   - name: mokoichannel
     url: https://mokoich.net/
     type: globalping
