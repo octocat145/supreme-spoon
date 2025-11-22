@@ -38,6 +38,9 @@ sites:
   - name: FAVELACHAN
     url: https://favelachan.org/
     type: globalping
+  - name: Gobby
+    url: http://goiaba.rf.gd/
+    type: globalping
   - name: Goiaba
     url: https://goiaba.fi/
     type: globalping
