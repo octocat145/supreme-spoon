@@ -1,7 +1,7 @@
 url: https://qchan.org/
-status: up
-code: 200
-responseTime: 397
-lastUpdated: 2025-11-22T05:52:44.796Z
+status: down
+code: 502
+responseTime: 465
+lastUpdated: 2025-11-22T07:56:27.404Z
 startTime: 2025-11-12T03:54:44.232Z
 generator: Upptime <https://github.com/upptime/upptime>
