@@ -3,6 +3,9 @@ owner: octocat145 # Your GitHub organization or username, where this repository 
 repo: supreme-spoon # The name of this repository
 
 sites:
+  - name: ptちゃん
+    url: https://ptchan.org/
+    type: globalping
   - name: 14chan
     url: https://14chan.org/
     type: globalping
@@ -69,9 +72,6 @@ sites:
       - 404
   - name: mokoichannel
     url: https://mokoich.net/
-    type: globalping
-  - name: ptちゃん
-    url: https://ptchan.org/
     type: globalping
   - name: Qchan
     url: https://qchan.org/
