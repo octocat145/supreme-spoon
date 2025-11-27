@@ -6,6 +6,15 @@ sites:
   - name: ptちゃん
     url: https://ptchan.org/
     type: globalping
+    location: Portugal
+  - name: Qchan
+    url: https://qchan.org/
+    type: globalping
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 403
+      - 404
   - name: 14chan
     url: https://14chan.org/
     type: globalping
@@ -38,12 +47,6 @@ sites:
   - name: Azumangachan
     url: https://azumangachan.rf.gd/
     type: globalping
-  - name: FAVELACHAN
-    url: https://favelachan.org/
-    type: globalping
-  - name: Gobby
-    url: http://goiaba.rf.gd/
-    type: globalping
   - name: Goiaba
     url: https://goiaba.fi/
     type: globalping
@@ -73,14 +76,6 @@ sites:
   - name: mokoichannel
     url: https://mokoich.net/
     type: globalping
-  - name: Qchan
-    url: https://qchan.org/
-    type: globalping
-    expectedStatusCodes:
-      - 200
-      - 201
-      - 403
-      - 404
   - name: Reinchan
     url: https://reinchan.org/
     type: globalping
