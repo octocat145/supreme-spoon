@@ -47,11 +47,17 @@ sites:
   - name: Azumangachan
     url: https://azumangachan.rf.gd/
     type: globalping
+  - name: gavetachan
+    url: https://gavetachan.org/
+    type: globalping
   - name: Goiaba
     url: https://goiaba.fi/
     type: globalping
-  - name: gavetachan
-    url: https://gavetachan.org/
+  - name: Gobby
+    url: https://gordy.rf.gd/
+    type: globalping
+  - name: Hikkichan
+    url: https://hikkichan.page.gd/
     type: globalping
   - name: Lusochan
     url: https://lusochan.net/
