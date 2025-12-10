@@ -47,6 +47,9 @@ sites:
   - name: Azumangachan
     url: https://azumangachan.rf.gd/
     type: globalping
+  - name: CZchan
+    url: https://czchan.rf.gd/
+    type: globalping
   - name: gavetachan
     url: https://gavetachan.org/
     type: globalping
