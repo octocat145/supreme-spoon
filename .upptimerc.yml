@@ -31,6 +31,9 @@ sites:
       - 201
       - 403
       - 404
+  - name: 1604chan
+    url: https://1604chan.fupi.cat/
+    type: globalping
   - name: 27chan
     url: https://27chan.org/
     type: globalping
@@ -61,6 +64,9 @@ sites:
     type: globalping
   - name: Hikkichan
     url: https://hikkichan.page.gd/
+    type: globalping
+  - name: Kiwichan
+    url: https://kiwichannel.org/
     type: globalping
   - name: Lusochan
     url: https://lusochan.net/
