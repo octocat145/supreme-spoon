@@ -1,4 +1,4 @@
-# [📈 Live Status](https://chanuptime.qzz.io): <!--live status--> **Todos os sistemas estão uma delícia**
+# [📈 Live Status](https://chanuptime.qzz.io): <!--live status--> **Todos os sistemas estão No Ar**
 
 This repository contains the open-source uptime monitor and status page for [Upptime](https://upptime.js.org), powered by [Upptime](https://github.com/upptime/upptime).
 
