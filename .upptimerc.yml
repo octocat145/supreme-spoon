@@ -45,6 +45,11 @@ sites:
   - name: 67chan
     url: https://67chan.org/
     type: globalping
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 403
+      - 404
   - name: Anões
     url: https://anoes.net/
     type: globalping
