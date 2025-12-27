@@ -42,6 +42,9 @@ sites:
       - 201
       - 403
       - 404
+  - name: 67chan
+    url: https://67chan.org/
+    type: globalping
   - name: Anões
     url: https://anoes.net/
     type: globalping
