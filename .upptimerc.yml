@@ -6,6 +6,8 @@ sites:
   - name: Jchan
     url: https://awoo.cf/jchan/
     type: globalping
+    expectedStatusCodes:
+      - 403
   - name: ptちゃん
     url: https://ptchan.org/
     type: globalping
