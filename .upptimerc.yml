@@ -12,14 +12,6 @@ sites:
     url: https://ptchan.org/
     type: globalping
     location: Portugal
-  - name: Qchan
-    url: https://qchan.org/
-    type: globalping
-    expectedStatusCodes:
-      - 200
-      - 201
-      - 403
-      - 404
   - name: 14chan
     url: https://14chan.org/
     type: globalping
@@ -36,9 +28,6 @@ sites:
       - 201
       - 403
       - 404
-  - name: 1604chan
-    url: https://1604chan.fupi.cat/
-    type: globalping
   - name: 27chan
     url: https://27chan.org/
     type: globalping
@@ -52,7 +41,7 @@ sites:
     type: globalping
     expectedStatusCodes:
       - 200
-      - 201
+      - 302
       - 403
       - 404
   - name: Anões
@@ -60,9 +49,6 @@ sites:
     type: globalping
     expectedStatusCodes:
       - 400
-  - name: Azumangachan
-    url: https://azumangachan.rf.gd/
-    type: globalping
   - name: CZchan
     url: https://czchan.rf.gd/
     type: globalping
@@ -74,9 +60,6 @@ sites:
     type: globalping
   - name: Gobby
     url: https://gordy.rf.gd/
-    type: globalping
-  - name: Hikkichan
-    url: https://hikkichan.page.gd/
     type: globalping
   - name: Kiwichan
     url: https://kiwichannel.org/
