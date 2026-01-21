@@ -1,7 +1,7 @@
 url: https://reinchan.org/
-status: up
-code: 403
-responseTime: 125
-lastUpdated: 2026-01-21T10:40:04.643Z
+status: down
+code: 502
+responseTime: 659
+lastUpdated: 2026-01-21T11:00:23.781Z
 startTime: 2025-11-12T03:54:45.975Z
 generator: Upptime <https://github.com/upptime/upptime>
