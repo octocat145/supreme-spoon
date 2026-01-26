@@ -582,16 +582,16 @@
     "url": "https://reinchan.org/",
     "icon": "https://icons.duckduckgo.com/ip3/reinchan.org.ico",
     "slug": "reinchan",
-    "status": "up",
-    "uptime": "79.82%",
-    "uptimeDay": "11.30%",
-    "uptimeWeek": "24.22%",
-    "uptimeMonth": "49.96%",
-    "uptimeYear": "79.82%",
+    "status": "down",
+    "uptime": "80.07%",
+    "uptimeDay": "13.16%",
+    "uptimeWeek": "24.50%",
+    "uptimeMonth": "50.56%",
+    "uptimeYear": "80.07%",
     "time": 379,
-    "timeDay": 302,
-    "timeWeek": 372,
-    "timeMonth": 465,
+    "timeDay": 340,
+    "timeWeek": 375,
+    "timeMonth": 466,
     "timeYear": 379,
     "dailyMinutesDown": {
       "2026-01-26": 724,
@@ -612,7 +612,7 @@
       "2026-01-11": 1376,
       "2026-01-10": 1067,
       "2026-01-09": 1205,
-      "2026-01-08": 473
+      "2026-01-08": 210
     }
   },
   {
